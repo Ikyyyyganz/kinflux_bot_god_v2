@@ -9,11 +9,12 @@ let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
       let data = await download(text);
 
       if (data.size.replace(' MB', '') > 200) {
-        return await conn.sendMessage(m.chat, { text: '*[⛔] The file is too large.*' }, { quoted: m });
+        return await conn.sendMessage(m.chat, { text: '*[⛔] The file is too large. 
+          from kinflux bot*' }, { quoted: m });
       }
 
       if (data.size.includes('GB')) {
-        return await conn.sendMessage(m.chat, { text: '*[⛔] The file is too large.*' }, { quoted: m });
+        return await conn.sendMessage(m.chat, { text: '*[⛔] The file is too large.*kinflux bot*' }, { quoted: m });
       }
 
       await conn.sendMessage(
@@ -23,7 +24,7 @@ let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
       );
     }
   } catch {
-    throw `*[❗] An error occurred. Make sure to provide a valid link.*`;
+    throw `*[❗] An error occurred. Make sure to provide a valid link. from kinflux bot*`;
   }
 };
 
