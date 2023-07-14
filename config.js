@@ -8,7 +8,7 @@ import axios from 'axios'
 
 global.owner = [
   ['254110077535', 'zamzack254', true],
-  ['254110077535', 'kinflux digital', true], 
+  ['254110077776', 'kinflux digital', true], 
   [''] 
 ] //Number of owners
 
@@ -21,7 +21,9 @@ global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['SGWN']
-
+//Dont change this for the bot to work correctly
+global.owner = [ ['254110077776', 'kinflux digital', true],   ['']  ]
+ 
 global.APIs = { // API Prefix
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz', 
