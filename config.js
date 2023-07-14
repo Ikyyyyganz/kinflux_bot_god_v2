@@ -7,13 +7,13 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['254110077535', 'zamzack254', true],
-  ['254110077776', 'kinflux digital', true], 
+  ['6283137808331', 'Kyy ochimaru', true],
+  ['6283137808331', 'Ikyy', true], 
   [''] 
 ] //Number of owners
 
-global.mods = ['254110077535','254110377776'] 
-global.prems = ['254110077535', '254110377776', '254765777423']
+global.mods = ['6283137808331','254110377776'] 
+global.prems = ['6283137808331', '254110377776', '254765777423']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -22,7 +22,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['SGWN']
 //Dont change this for the bot to work correctly
-global.owner = [ ['254110077776', 'kinflux digital', true],   ['']  ]
+global.owner = [ ['6283137808331', 'Kyy ochimaru', true],   ['']  ]
  
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -49,10 +49,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'kinflux bot'
+global.botname = 'Nezuko'
 global.premium = 'true'
-global.packname = 'kinflux┃ᴮᴼᵀ' 
-global.author = 'zamzack254' 
+global.packname = 'Nezuko' 
+global.author = 'kyy' 
 global.igfg = '▢ Follow on Instagram\nhttps://chat.whatsapp.com/KggVmnH7ki6HoyD0025gDD\n' 
 global.dygp = 'https://chat.whatsapp.com/KggVmnH7ki6HoyD0025gDD'
 global.fgsc = 'https://github.com/diggilly/kinflux-bot' 
