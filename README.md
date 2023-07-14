@@ -19,43 +19,49 @@
 <a href="https://github.com/diggilly"><img title="Author" src="https://img.shields.io/badge/AUTHOR-kinflux digital-green.svg?style=for-the-badge&logo=github"></a>
 
 ---------
-## Now You Can Start Bot With Yarn only Just Type yarn In Terminal
+## kinflux-bot-God is a powerfull Multi Device whatsapp bot. ⚡️ Lightning-Fast Responses: 300 feutures and many more
+
+
 
 ```
-yarn
+kinflux bot God v2
 ```
 
 ---------
 
 ## ```Tap Here For Help ⛩️``` 
-  <a href="https://wa.me/918811074852?text=Hello%20Pika~Kun%20sir...%20I%20need%20some%20help%20in%20Anya%20v2">
-    <img align="left" alt="SIEGRIN | Whastapp" width="26px" src="https://raw.githubusercontent.com/PikaBotz/My_Personal_Space/main/Images/AnyaBot_pics/Anya_v2/Whatsapp.svg" />
+  <a href="https://wa.me/2541100777535?text=Hello%20zamzack254%20sir...%20I%20need%20some%20help%20in%20kinflux_bot_God%20v2">
+    <img align="left" alt="SIEGRIN | Whastapp" width="26px" src="https://github.com/diggilly/kinflux_bot_God/blob/main/Guru.jpg" />
   
     Tap here for contact me on WhatsApp Messenger 🎐
     
-  <a href="My email: alammdarif07@gmail.com">
+  <a href="My email: kinfluxdigital@gmail.com">
     <img align="left" alt="SIEGRIN | Gmail" width="26px" src="https://raw.githubusercontent.com/PikaBotz/My_Personal_Space/main/Images/AnyaBot_pics/Anya_v2/Gmail.svg" />
   
-    My email Adress : alammdarif07@gmail.com 🎐
+    My email Adress : kinfluxdigital@gmail.com 🎐
      
     
 
 
-## ```Scan QR Here```
+## ```fork the repo first Here```
 
-<a href="https://qr.queenanya.me/"><img src="./AnyaPikaMedia/HomeScreen/AnyaQRscan.png" align="center" width="90" /> </a>
+## ```Scan the QR and upload guru.data.json to your fork(will recieve it on your bot number after scanning)```
+
+<a href="https://replit.com/@digildigil/Kinflux-bot-QR-CODE-GENERATOR?v=1/"><img src="./AnyaPikaMedia/HomeScreen/AnyaQRscan.png" align="center" width="90" /> </a>
   
-## ```Deploy On Railway```
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
-
-## ```Deploy On Replit```
-
-[![Run on Repl.it](https://repl.it/badge/github/PikaBotz/Anya_v2-MD)](https://repl.it/github/PikaBotz/Anya_v2-MD)
 
 ## ```Deploy On Heroku```
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PikaBotz/Anya_v2-MD)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/diggilly/kinflux_bot_god_v2)
+
+
+## ```Deploy On Replit```
+
+[![Run on Repl.it](https://repl.it/badge/github/diggilly/kinflux_bot_god_v2/)](https://repl.it/github/diggilly/kinflux_bot_god_v2)
+
+## ```Deploy On coolify. if you dont have an account create one first ```
+
+[![Deploy on coolify](https://img.shields.io/badge/coolify%20Account-blue?style=for-the-badge&logo=coolify)](http://65.21.52.72:3000/register)
 
 
 
