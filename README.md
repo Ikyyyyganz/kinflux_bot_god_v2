@@ -44,6 +44,10 @@ kinflux bot God v2
 
 
 ## ```fork the repo first Here```
+              <br>
+<a href='https://github.com/diggilly/kinflux_bot_god_v2/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+
+  
 
 ## ```Scan the QR and upload guru.data.json to your fork(will recieve it on your bot number after scanning)```
 
@@ -76,11 +80,11 @@ kinflux bot God v2
 1. This repo is not for sale trade.
 2. Don't forget give `star` this repo 🌟
 3. This script is not made for `illegal` purpose.
-4. If you have problem, [`Tap Here`](https://wa.me/25411007753?text=Hello%20*master%20zamzack254*%20sir...%20I%20need%20some%20help%20in%20kinflux_bot_god%20v2...%20🥲) for help
+4. If you have problem, [`Tap Here`](https://wa.me/254110077535?text=Hello%20*master%20zamzack254*%20sir...%20I%20need%20some%20help%20in%20kinflux_bot_god%20v2...%20🥲) for help
 
 ---------
 
 ## ```Thanks to ✨```
-* [`kinflux digital`](https://github.com/NexusAt12) - | ✅ For the Script stability
+* [`kinflux digital`](https://wa.me/254110377776?text=Hello%20*master%20zamzack254*%20sir..) - | ✅ For the Script stability
 * [`diggilly`](https://github.com/diggilly) - | ✅ For README.MD CODE
 * [`AdirajShing`](https://github.com/adiwajshing/Baileys) - | ✅ For a huge library
