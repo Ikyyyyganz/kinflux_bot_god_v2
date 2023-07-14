@@ -1,7 +1,7 @@
 { 
     "name": "kinflux bot",
     "version": "0.0.1",
-    "description": "Customizable WhatsApp Bot",
+    "description": "WhatsApp God Bot MD",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -25,16 +25,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/diggilly/Kinflux_bot_God",
+    "homepage": "https://github.com/diggilly/kinflux_bot_god_v2",
     "author": {
         "name": "kinflux digital"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/diggilly/Kinflux_bot_God.git"
+        "url": "git+https://github.com/diggilly/kinflux_bot_god_v2.git"
     },
     "bugs": {
-        "url": "https://github.com/diggilly/Kinflux_bot_God/issues"
+        "url": "https://github.com/diggilly/kinflux_bot_god_v2/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
