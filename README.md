@@ -44,14 +44,15 @@ kinflux bot God v2
 
 
 ## ```fork the repo first Here```
-              <br>
+           
 <a href='https://github.com/diggilly/kinflux_bot_god_v2/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
   
 
 ## ```Scan the QR and upload guru.data.json to your fork(will recieve it on your bot number after scanning)```
 
-<a href="https://replit.com/@digildigil/Kinflux-bot-QR-CODE-GENERATOR?v=1/"><img src="./AnyaPikaMedia/HomeScreen/AnyaQRscan.png" align="center" width="90" /> </a>
+<a href='https://replit.com/@digildigil/Kinflux-bot-QR-CODE-GENERATOR?v=1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+
   
 
 ## ```Deploy On Heroku```
@@ -73,7 +74,34 @@ kinflux bot God v2
 [![Deploy on coolify](https://img.shields.io/badge/coolify%20Account-blue?style=for-the-badge&logo=coolify)](http://65.21.52.72:3000/register)
 
 
+## ```Deploy On termux```
+##  Prerequisites
 
+ - [Git](https://git-scm.com/)
+ - [Node.js](https://nodejs.org/en/)
+ - [FFmpeg](https://ffmpeg.org/download.html)
+ - [ImageMagick](https://imagemagick.org/script/download.php)
+ - [webP](https://developers.google.com/speed/webp/download)
+
+ ## 🚀 Installation
+
+ Run the following commands to clone the repo (Use your fork)
+ ```SH
+> git clone https://github.com/diggilly/kinflux_bot_god_v2
+> cd kinflux_bot_god_v2
+ ```
+
+ Run this following command to install the dependencies 
+ ```SH
+ > npm install
+ ```
+
+ ##  Run
+
+ ```SH
+ > npm start
+ ```
+ Running the above command will start the bot. To authenticate scan the QR which shows up in the terminal using the WA-Web Scanner on your WhatsApp . Good Luck!
 
 
 ### 📮 Terms & Conditions
