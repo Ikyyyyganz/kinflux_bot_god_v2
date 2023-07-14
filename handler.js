@@ -541,7 +541,7 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.diamond && global.db.data.users[m.sender].diamond < plugin.diamond * 1) {
-                     this.reply(m.chat, `✳️ your diamonds ran out \n use the following command to buy more diamonds \n*${usedPrefix}todiamond* <amount`, m)
+                     this.reply(m.chat, `✳️ your diamonds ran out \n use the following command to buy more diamonds \n*${usedPrefix}todiamond* <amount. from kinflux bot`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
@@ -687,11 +687,31 @@ case 'remove':
                 pp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
                 ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
             } finally {
-                let text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user').replace('@group', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'Desconocido') :
-                    (chat.sBye || this.bye || conn.bye || 'HELLO, @user')).replace('@user', '@' + user.split('@')[0]);
+                let text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || '
+╭───•✧✧•───╮
+*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌*
+╰───•✧✧•────
+						
+Welcome, @user').replace('@group', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'Desconocido') :
+                    (chat.sBye || this.bye || conn.bye || '
+╭───•✧✧•───╮
+*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌*
+╰───•✧✧•────╯
+		     
+HELLO , @user')).replace('@user', '@' + user.split('@')[0]);
 
                 let nthMember = groupMetadata.participants.length;
-                let secondText = action === 'add' ? `Welcome, ${await this.getName(user)}, our ${nthMember}th member` : `Goodbye, our ${nthMember}th group member`;
+                let secondText = action === 'add' ? `
+╭───•✧✧•───╮
+*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌*
+╰───•✧✧•────╯
+
+Welcome, ${await this.getName(user)}, our ${nthMember}th member` : `
+╭───•✧✧•───╮
+*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌*
+╰───•✧✧•────╯
+
+Goodbye, our ${nthMember}th group member`;
 
                 try {
                     let apiKey = "gandu";  // Replace with your actual API Key
@@ -760,6 +780,9 @@ export async function deleteUpdate(message) {
         if (chat.delete)
             return 
             await this.reply(msg.chat, `
+   ╭───•✧✧•───╮
+*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌*
+   ╰───•✧✧•────╯
 ≡ deleted a message 
 ┌─⊷  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 
 ▢ *Number :* @${participant.split`@`[0]} 
@@ -778,16 +801,16 @@ TO DEACTIVE , PRESS
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*ᴏɴʟʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ* • This command can only be used by the *Creator of the bot*',
-        owner: '*ᴏɴʟʏ ᴏᴡɴᴇʀ* • This command can only be used by the *Bot Owner',
-        mods: '*ᴏɴʟʏ ᴍᴏᴅᴇʀᴀᴛᴏʀ* •This function is only for *For Bot moderators*',
-        premium: '*ᴏɴʟʏ ᴘʀᴇᴍɪᴜᴍ* • This command is for *Premium members only',
-        group: '*ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • This command can only be used in groups',
+        rowner: '*ᴏɴʟʏ *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴅᴇᴠᴇʟᴏᴘᴇʀ* • This command can only be used by the **≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌*',
+        owner: '*ᴏɴʟʏ ᴏᴡɴᴇʀ* • This command can only be used by  *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 owner',
+        mods: '*ᴏɴʟʏ *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴍᴏᴅᴇʀᴀᴛᴏʀ* •This function is only for *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 Bot moderators*',
+        premium: '*ᴏɴʟʏ *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴘʀᴇᴍɪᴜᴍ members* • This command is for **≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 Premium members only',
+        group: '*⚡ kinflux bot ⚡ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • This command can only be used in ⚡kinflux bots ⚡ groups',
         private: '*ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* • This command can only be used in the *private chat of the Bot*',
-        admin: '*ᴏɴʟʏ ᴀᴅᴍɪɴ* • This command is only for *Group Admins*',
-        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* • To use this command I must be *Admin!*',
-        unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* •  Sign in to use this feature Typing:\n\n*/reg name.age*\n\n📌Example : */reg GURU.20*', 
-        restrict: '*ʀᴇsᴛʀɪᴄᴛ* • This feature is *disabled*',
+        admin: '*ᴏɴʟʏ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴀᴅᴍɪɴ* • This command is only for *🎌KINFLUX 𝘽𝙊𝙏 🎌 Group Admins*',
+        botAdmin: '*ᴏɴʟʏ 🎌KINFLUX 𝘽𝙊𝙏 🎌  ᴀᴅᴍɪɴ* • To use this command 🎌KINFLUX 𝘽𝙊𝙏 🎌 must be *Admin!*',
+        unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* •  Sign in to use this feature Typing:\n\n*/reg name.age*\n\n📌Example : */reg KINFLUX.20*', 
+        restrict: '*ʀᴇsᴛʀɪᴄᴛ BY 🎌KINFLUX 𝘽𝙊𝙏 🎌* • This feature is *disabled* BY 🎌KINFLUX 𝘽𝙊𝙏 🎌 CREATOR',
     }[type]
     if (msg) return m.reply(msg)
 }
