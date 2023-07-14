@@ -59,6 +59,11 @@ kinflux bot God v2
 
 [![Run on Repl.it](https://repl.it/badge/github/diggilly/kinflux_bot_god_v2/)](https://repl.it/github/diggilly/kinflux_bot_god_v2)
 
+## ```Deploy On okteto```
+
+[![Deploy on okteto](https://camo.githubusercontent.com/d811d43192ad4086537b87a1c02204aa9e0fc8bc573ab4e7713fff4912060be3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4f6b7465746f2532304163636f756e742d626c75653f7374796c653d666f722d7468652d6261646765266c6f676f3d6f6b7465746f)](https://www.okteto.com/pricing/?plan=SaaS)
+
+
 ## ```Deploy On coolify. if you dont have an account create one first ```
 
 [![Deploy on coolify](https://img.shields.io/badge/coolify%20Account-blue?style=for-the-badge&logo=coolify)](http://65.21.52.72:3000/register)
@@ -71,13 +76,11 @@ kinflux bot God v2
 1. This repo is not for sale trade.
 2. Don't forget give `star` this repo 🌟
 3. This script is not made for `illegal` purpose.
-4. If you have problem, [`Tap Here`](https://wa.me/918811074852?text=Hello%20*master%20Pika~Kun*%20sir...%20I%20need%20some%20help%20in%20Anya%20v2...%20🥲) for help
+4. If you have problem, [`Tap Here`](https://wa.me/25411007753?text=Hello%20*master%20zamzack254*%20sir...%20I%20need%20some%20help%20in%20kinflux_bot_god%20v2...%20🥲) for help
 
 ---------
 
 ## ```Thanks to ✨```
-* [`Nexus`](https://github.com/NexusAt12) - | ✅ For Script compatibility
-* [`Xeon`](https://github.com/DGXeon) - | ✅ For Cheems v4 Base
-* [`OldUser`](https://github.com/Teamolduser) - | ✅ For web and modules compatibility
-* [`ImYanXiao`](https://github.com/ImYanXiao) - | ✅ For README.md code
+* [`kinflux digital`](https://github.com/NexusAt12) - | ✅ For the Script stability
+* [`diggilly`](https://github.com/diggilly) - | ✅ For README.MD CODE
 * [`AdirajShing`](https://github.com/adiwajshing/Baileys) - | ✅ For a huge library
